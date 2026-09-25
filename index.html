@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -25,15 +24,15 @@
     }
     .main
     {
-        width: 0 auto;
+        width: 1366px;
         height: 3162px;
         background: rgba(255, 255, 255, 1);
-        justify-content: center;
-        align-items: center;
+        margin: 0 auto;
     }
     .header
     {
         display: flex;
+        justify-content: center;
     }
     .header .logo
     {
@@ -66,8 +65,9 @@
     .content1
     {
         display: flex;
+        justify-content: center;
         background: rgba(241, 241, 241, 1);
-        width: 0 auto;
+        width: 1366px;
         height: 680px;
     }
     .content1 .a
@@ -101,6 +101,7 @@
     .content2-1, .content2-2 
     {
         display: flex;
+        justify-content: center;
     }
     .content2-1 p, 
     .content2-2 p
@@ -137,9 +138,10 @@
     }
     .content3
     {
+        justify-content: center;
         overflow: hidden;
         background: rgba(241, 241, 241, 1);
-        width: 0 auto;
+        width: 1366px;
         height: 580px;
     }
     .content3 .d
@@ -155,6 +157,7 @@
     .content3-1
     {
         display: flex;
+        justify-content: center;
     }
     .content3-1 p
     {
@@ -188,6 +191,7 @@
     }
     .content4-1
     {
+        justify-content: center;
         display: flex;
     }
     .content4-1 p
@@ -212,8 +216,9 @@
     }
     .footer
     {
+        justify-content: center;
         background: rgba(217, 217, 217, 1);
-        width: 0 auto;
+        width: 1366px;
         height: 72px;
     }
     .footer p
@@ -224,37 +229,37 @@
 </style>
 
 <body>
-        <div class="main">
-            <header class="header">
-                <p class="logo">Logo</p><p class="menu">Menu</p><p class="button">Button</p>
-            </header>
-            <div class="content1">
-                <p class="a">Content</p><p class="b">Image</p>
+    <div class="main">
+        <header class="header">
+            <p class="logo">Logo</p><p class="menu">Menu</p><p class="button">Button</p>
+        </header>
+        <div class="content1">
+            <p class="a">Content</p><p class="b">Image</p>
+        </div>
+        <div class="content2">
+            <p class="d">Title</p>
+            <div class="content2-1">
+                <p class="a">Item</p><p class="b">Item</p><p class="c">Item</p>
             </div>
-            <div class="content2">
-                <p class="d">Title</p>
-                <div class="content2-1">
-                    <p class="a">Item</p><p class="b">Item</p><p class="c">Item</p>
-                </div>
-                <div class="content2-2">
-                    <p class="a">Item</p><p class="b">Item</p><p class="c">Item</p>
-                </div>
-            </div>
-            <div class="content3">
-                <p class="d">Title</p>
-                <div class="content3-1">
-                    <p class="a">Item</p><p class="b">Item</p><p class="b">Item</p><p class="b">Item</p><p class="c">Item</p>
-                </div>
-            </div>
-            <div class="content4">
-                <p class="d">Title</p>
-                <div class="content4-1">
-                    <p class="a">Item</p><p class="b">Item</p><p class="b">Item</p><p class="c">Item</p>
-                </div>
-            </div>
-            <div class="footer">
-                <p>Footer</p>
+            <div class="content2-2">
+                <p class="a">Item</p><p class="b">Item</p><p class="c">Item</p>
             </div>
         </div>
+        <div class="content3">
+            <p class="d">Title</p>
+            <div class="content3-1">
+                <p class="a">Item</p><p class="b">Item</p><p class="b">Item</p><p class="b">Item</p><p class="c">Item</p>
+            </div>
+        </div>
+        <div class="content4">
+            <p class="d">Title</p>
+            <div class="content4-1">
+                <p class="a">Item</p><p class="b">Item</p><p class="b">Item</p><p class="c">Item</p>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Footer</p>
+        </div>
+    </div>
 </body>
 </html>
